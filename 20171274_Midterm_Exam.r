@@ -5,7 +5,7 @@ str(iris)
 
 
 # Species에 따른 Petal.Length와 Sepal.Length에 대한 boxplot을 각각 그리고, boxplot으로 추정할 수 있는 것들을 모두 설명하시오. ( 5점 )
-par(mfrow=c(1,1))
+par(mfrow=c(1,2))
 boxplot(Petal.Length~Species, data=iris, ylab='Petal.Length')
 boxplot(Sepal.Length~Species, data=iris, ylab='Sepal.Length')
 
